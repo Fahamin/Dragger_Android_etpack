@@ -12,6 +12,7 @@ import dagger.multibindings.IntoMap
 @Module
 abstract class ViewModelModule {
 
+    //bindinstanc use interface maybe
     @Binds
     @ClassKey(MainActivityViewModel::class)
     @IntoMap
